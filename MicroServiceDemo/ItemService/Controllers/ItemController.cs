@@ -58,7 +58,7 @@ namespace ItemService.Controllers
             }
         }
         [HttpPut]
-        [Route("UpadateItem")]
+        [Route("UpdateItem")]
         public IActionResult PUT(Items item)
         {
             try
